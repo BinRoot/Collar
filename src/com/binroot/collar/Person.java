@@ -1,4 +1,4 @@
-package com.example.NotificationTest;
+package com.binroot.collar;
 
 /**
  * Created with IntelliJ IDEA.

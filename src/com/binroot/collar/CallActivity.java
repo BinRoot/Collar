@@ -1,4 +1,4 @@
-package com.example.NotificationTest;
+package com.binroot.collar;
 
 import android.app.Activity;
 import android.content.Intent;

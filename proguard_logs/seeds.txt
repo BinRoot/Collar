@@ -1,0 +1,101 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.binroot.collar.AlertBroadcastReceiver
+com.binroot.collar.AlertBroadcastReceiver: AlertBroadcastReceiver()
+com.binroot.collar.CallActivity
+com.binroot.collar.CallActivity: CallActivity()
+com.binroot.collar.MainActivity
+com.binroot.collar.MainActivity: MainActivity()
+com.binroot.collar.MainActivity: void countdownClicked(android.view.View)
+com.binroot.collar.R$color: int background
+com.binroot.collar.R$color: int countdown
+com.binroot.collar.R$color: int freq
+com.binroot.collar.R$color: int freq_picker
+com.binroot.collar.R$color: int notification
+com.binroot.collar.R$drawable: int clock
+com.binroot.collar.R$drawable: int cross
+com.binroot.collar.R$drawable: int cross_small
+com.binroot.collar.R$drawable: int heart
+com.binroot.collar.R$drawable: int heart_small
+com.binroot.collar.R$drawable: int ic_launcher
+com.binroot.collar.R$drawable: int phone
+com.binroot.collar.R$drawable: int phone2
+com.binroot.collar.R$drawable: int phone_small
+com.binroot.collar.R$drawable: int settings
+com.binroot.collar.R$drawable: int star
+com.binroot.collar.R$drawable: int star_small
+com.binroot.collar.R$drawable: int suit
+com.binroot.collar.R$drawable: int suityellow
+com.binroot.collar.R$id: int countdown
+com.binroot.collar.R$id: int freq_container
+com.binroot.collar.R$id: int freq_picker
+com.binroot.collar.R$id: int freq_title
+com.binroot.collar.R$id: int menu_help
+com.binroot.collar.R$id: int menu_refresh
+com.binroot.collar.R$id: int nextcall
+com.binroot.collar.R$layout: int main
+com.binroot.collar.R$menu: int main
+com.binroot.collar.R$string: int app_name
+com.binroot.collar.R$string: int freq_label
+com.binroot.collar.R$string: int freq_title
+com.binroot.collar.R$string: int help_about
+com.binroot.collar.R$string: int help_clock
+com.binroot.collar.R$string: int help_countdown
+com.binroot.collar.R$string: int help_deleting
+com.binroot.collar.R$string: int help_go
+com.binroot.collar.R$string: int help_later
+com.binroot.collar.R$string: int help_nope
+com.binroot.collar.R$string: int help_picker
+com.binroot.collar.R$string: int nextcall
+com.binroot.collar.R$string: int noti_action1
+com.binroot.collar.R$string: int noti_action2
+com.binroot.collar.R$string: int noti_action3
+com.binroot.collar.R$string: int noti_ticker
+com.binroot.collar.R$string: int noti_title
+com.binroot.collar.R$style: int CustomActionBar
+com.binroot.collar.R$style: int CustomHoloTheme

@@ -1,30 +1,20 @@
-package com.example.NotificationTest;
+package com.binroot.collar;
 
 import android.app.AlarmManager;
-import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.SystemClock;
 import android.provider.ContactsContract;
 import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.TaskStackBuilder;
-import android.text.format.Time;
 import android.widget.Toast;
 import net.sf.doodleproject.numerics4j.random.ExponentialRandomVariable;
 
-import java.lang.reflect.Method;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.TimeZone;
 
 /**
  * Created with IntelliJ IDEA.
@@ -37,7 +27,6 @@ public class Notifier {
 
     final static int DEFAULT_FREQ = 2;
 
-    // TODO: fix exponential distribution!
     public static long getNextTime(Context context) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(Constants.SETTINGS_FILE, Context.MODE_PRIVATE);
         int freq = sharedPreferences.getInt(Constants.SETTINGS_FREQ_KEY, DEFAULT_FREQ);
