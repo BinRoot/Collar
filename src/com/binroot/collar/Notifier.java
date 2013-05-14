@@ -93,7 +93,7 @@ public class Notifier {
                 .setVibrate(new long[]{0, 100,100,100,100,100})
                 .setContentIntent(PendingIntent.getActivity(context, 200, callIntent, PendingIntent.FLAG_ONE_SHOT))
                 .setDeleteIntent(PendingIntent.getBroadcast(context, 4, deleteIntent, PendingIntent.FLAG_ONE_SHOT))
-                .addAction(R.drawable.phone2, context.getString(R.string.noti_action1),
+                .addAction(R.drawable.phone2_small, context.getString(R.string.noti_action1),
                         PendingIntent.getActivity(context, 100, callIntent, PendingIntent.FLAG_ONE_SHOT))
                 .addAction(R.drawable.clock, context.getString(R.string.noti_action2),
                         PendingIntent.getBroadcast(context, 2, broadcastLaterIntent, PendingIntent.FLAG_ONE_SHOT))

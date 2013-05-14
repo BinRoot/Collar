@@ -65,6 +65,7 @@ com.binroot.collar.R$drawable: int heart_small
 com.binroot.collar.R$drawable: int ic_launcher
 com.binroot.collar.R$drawable: int phone
 com.binroot.collar.R$drawable: int phone2
+com.binroot.collar.R$drawable: int phone2_small
 com.binroot.collar.R$drawable: int phone_small
 com.binroot.collar.R$drawable: int settings
 com.binroot.collar.R$drawable: int star
