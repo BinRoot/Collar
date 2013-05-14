@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Collar</string>
+    <string name="noti_ticker">Get back in touch...</string>
+    <string name="noti_title">Get back in touch</string>
+    <string name="noti_action1">Go!</string>
+    <string name="noti_action2">Later</string>
+    <string name="noti_action3">Nope</string>
+    <string name="freq_title">Notification frequency</string>
+    <string name="freq_label">times a day</string>
+    <string name="help_about">
+        Collar runs in the background and reminds you to get back in touch with old friends.
+    </string>
+    <string name="help_countdown">
+        Touching the blue countdown timer will skip the countdown and force a notification.
+    </string>
+    <string name="help_picker">
+        The number-picker below changes the frequency of notifications.
+    </string>
+    <string name="help_clock">
+        Touching the clock on the top right will refresh the countdown timer.
+    </string>
+    <string name="help_go">
+        When you receive a notification, touch \'Go!\' to make a call.
+    </string>
+    <string name="help_later">
+        Pressing \'Later\' will make the person more likely to appear again.
+    </string>
+    <string name="help_nope">
+        Pressing \'Nope\' will make the person less likely to appear again.
+    </string>
+    <string name="help_deleting">
+        Deleting the notification will make the person equally likely to appear again.
+    </string>
+    <string name="nextcall">Next call in</string>
+
+</resources>

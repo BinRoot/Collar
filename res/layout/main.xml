@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/countdown">
+
+        <TextView
+            android:id="@+id/nextcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nextcall"
+            style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+            />
+
+        <TextView
+            android:id="@+id/countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/nextcall"
+            android:text="..."
+            android:clickable="true"
+            android:onClick="countdownClicked"
+            style="@android:style/TextAppearance.Holo.DialogWindowTitle"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/freq_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/freq"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:id="@+id/freq_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/freq_title"
+            android:ignoreGravity="@id/freq_container"
+            style="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+            android:layout_marginBottom="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/freq_title">
+            <NumberPicker
+                android:id="@+id/freq_picker"
+                android:layout_width="wrap_content"
+                android:solidColor="@color/freq"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/freq_label"
+                android:layout_toRightOf="@id/freq_picker"
+                style="@android:style/TextAppearance.Holo.DialogWindowTitle"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
